@@ -8,4 +8,5 @@ RUN \
   apt-get install -yqq python yarn python-pip && \
   pip install -U pip && pip install pipenv && \
   npm i -g npm@^6 && \
+  npm i -g eslint && \
   rm -rf /var/lib/apt/lists/*
